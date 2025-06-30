@@ -4,14 +4,14 @@
 **Author:** Jeremy Gutierrez  
 **Tools Used:** SQL (MySQL), Python, Seaborn/Matplotlib, Power BI-ready structure  
 **Project Type:** Data Analyst Portfolio  
-**Target Role:** AI-Powered Data Analyst at Drips  
+**Target Role:** AI-Powered Data Analyst     
 **Dataset Source:** UCI Bank Marketing Dataset ([link](https://archive.ics.uci.edu/ml/datasets/bank+marketing))
 
 ---
 
 ## 🧠 Project Overview
 
-This project simulates the analysis of an SMS outreach campaign to banking customers, modeled after real-world use cases at companies like **Drips**.
+This project simulates the analysis of an SMS outreach campaign to banking customers, modeled after real-world use cases.
 
 The goal is to extract **actionable business insights** using SQL and data visualization, based on historical campaign performance, customer demographics, and behavior patterns.
 
@@ -48,11 +48,9 @@ The original dataset was cleaned by removing duplicates, nulls, and outliers. Fi
 
 ---
 
-## 🧮 SQL Code (MySQL Dialect)
+## 🧮 SQL Code Samples (MySQL Dialect)
 
-SQL scripts used in this project are stored in the `/sql` folder.
-
-### 📁 Place this content in `/sql/q1_segment_response.sql`
+### Q1: Top Responding Segments
 ```sql
 SELECT
   education,
@@ -67,7 +65,7 @@ ORDER BY response_rate_pct DESC
 LIMIT 10;
 ```
 
-### 📁 Place this content in `/sql/q2_contact_frequency.sql`
+### Q2: Response Rate by Contact Frequency
 ```sql
 SELECT
   campaign,
@@ -79,7 +77,7 @@ GROUP BY campaign
 ORDER BY campaign;
 ```
 
-### 📁 Place this content in `/sql/q3_top_20_percent.sql`
+### Q3: Prioritize Top 20% of Leads
 ```sql
 WITH segment_rates AS (
   SELECT
@@ -113,8 +111,6 @@ LIMIT CEIL((SELECT COUNT(*) FROM sms_campaign) * 0.20);
 
 ## 📈 Visualizations
 
-Place all images in `/visualizations/` and reference them like this:
-
 ### 1. Top Responding Customer Segments
 ![Segment Response](./visualizations/q1_segment_response_rate.png)
 
@@ -132,7 +128,6 @@ Place all images in `/visualizations/` and reference them like this:
 - SQL for segmentation, prioritization, and KPI analysis
 - Visual storytelling with Seaborn/Matplotlib
 - Real-world business question framing
-- Structuring reproducible projects for GitHub
 
 ---
 
@@ -161,5 +156,5 @@ sms-campaign-analysis/
 ## 📬 Contact
 
 Feel free to connect or message me:
-- LinkedIn: [Jeremy Gutierrez](#)
-- Email: your@email.com
+- LinkedIn: [Jeremy Gutierrez](https://www.linkedin.com/in/jeremy-gutierrez-4502391bb/#)
+- Email: zambrana.1612@gmail.com
