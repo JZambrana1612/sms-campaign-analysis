@@ -1,0 +1,15 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Data files
+*.csv
+!data/bank_cleaned_final.csv
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
