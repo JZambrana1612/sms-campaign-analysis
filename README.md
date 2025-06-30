@@ -143,12 +143,11 @@ sms-campaign-analysis/
 │   ├── q1_segment_response.sql
 │   ├── q2_contact_frequency.sql
 │   └── q3_top_20_percent.sql
-├── visualizations/
-│   ├── q1_segment_response_rate.png
-│   ├── q2_contact_frequency.png
-│   └── q3_priority_response_distribution.png
-└── notebooks/ (optional)
-    └── sms_analysis.ipynb
+└─── visualizations/
+   ├── q1_segment_response_rate.png
+   ├── q2_contact_frequency.png
+   └── q3_priority_response_distribution.png
+
 ```
 
 ---
