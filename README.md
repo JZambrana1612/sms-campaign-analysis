@@ -89,4 +89,4 @@ Based on the data-driven insights from this project, we recommend:
 
 **Jeremy Gutierrez**  
 Aspiring Data Analyst focused on campaign performance, customer segmentation, and actionable insights.  
-Let’s connect: [LinkedIn](https://www.linkedin.com/in/your-profile) | [GitHub](https://github.com/your-profile)
+Let’s connect: [LinkedIn](https://www.linkedin.com/in/jeremy-gutierrez-4502391bb/) | [GitHub](https://github.com/JZambrana1612)
