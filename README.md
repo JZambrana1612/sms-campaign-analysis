@@ -1,14 +1,14 @@
 # 📲 SMS Campaign Performance Dashboard
 
-### Analyzing lead conversion, timing strategy, and prioritization using SQL and Tableau.
+### Analyzing lead conversion, contact strategy, and lead prioritization using SQL and Tableau.
 
-This project investigates how customer demographics, outreach timing, and contact frequency influence conversion rates in a real-world SMS campaign. Insights were developed using SQL-based analysis and brought to life through interactive Tableau dashboards.
+This project investigates how customer demographics, contact frequency, and timing influence conversion rates in an SMS marketing campaign. All insights were derived using SQL and visualized through a professional Tableau dashboard designed for cross-functional decision-making.
 
 ---
 
 ## 🧾 Executive Summary
 
-This dashboard answers three key questions critical to SMS campaign performance:
+This dashboard addresses three strategic questions to help improve SMS marketing performance:
 
 1. **Which customer segments respond best to SMS outreach messages?**
 2. **How does the timing or frequency of contact affect conversion rate?**
@@ -16,10 +16,10 @@ This dashboard answers three key questions critical to SMS campaign performance:
 
 ### 📊 Dashboard Overview
 
-- Visualizations include:
-  - Conversion rates by customer segment (job, marital status, education)
-  - Conversion trends by contact frequency and previous campaign timing
-  - A prioritization matrix identifying high-value, high-likelihood leads
+- Visual insights include:
+  - Segment-based conversion rates by job, marital status, and education
+  - Conversion trends by contact frequency and time since last outreach
+  - A lead prioritization matrix based on conversion probability and account value
 
 > 🔗 [View the live dashboard on Tableau Public](YOUR_TABLEAU_PUBLIC_LINK_HERE)
 
@@ -29,48 +29,49 @@ This dashboard answers three key questions critical to SMS campaign performance:
 
 ### ✅ Actionable Recommendations
 
-- **Focus SMS campaigns on “blue-collar” professions** (e.g., technicians and blue-collar workers) with high conversion rates.
-  - *📣 Marketing Team Insight:* Helps refine message targeting and A/B testing by job-based segments.
+- **Prioritize segments with high conversion rates**, especially blue-collar roles and those with past positive interactions.
+  - *📣 Marketing Team Insight:* Refine audience targeting for future SMS campaigns using top-performing job and education segments.
 
-- **Avoid over-contacting leads** — conversion rates drop sharply after 3+ campaign contacts.
-  - *🧠 Operations/Compliance Insight:* Prevents oversaturation and maintains campaign integrity.
+- **Limit contact frequency to 3 or fewer attempts.** Conversion sharply declines after repeated outreach.
+  - *🧠 Compliance/Operations Insight:* Helps prevent user fatigue and maintain regulatory compliance.
 
-- **Prioritize leads with high account balances and previous contact success** (based on `balance` and `pdays`) for best ROI.
-  - *💰 Finance Team Insight:* Supports resource allocation for higher-value client pools.
+- **Use account balance and past engagement (`pdays`) to rank leads.**
+  - *💰 Finance Team Insight:* Optimizes spend by focusing on customers with the best ROI potential.
 
-- **Maximize outreach during high-performing months like May and August.**
-  - *📆 Marketing + Sales Insight:* Schedule messaging when conversion probability peaks.
+- **Schedule outreach during strong-performing months** like May and August to increase conversion efficiency.
+  - *📆 Sales & Campaign Ops Insight:* Coordinate campaign timing around seasonal effectiveness patterns.
 
 ---
 
 ## 🔍 Deep Dive: Analytical Approach
 
 ### 🧮 Dataset Overview
-- Real-world dataset from a Portuguese bank's marketing campaign
-- ~41,000 records of customer outreach with attributes like job, education, contact duration, and subscription status
+- ~41,000 records from a Portuguese bank’s direct marketing efforts
+- Each record includes demographics, campaign behavior, and final subscription outcome (`y`)
 
-### 💾 SQL-Powered Analysis
-- Cleaned and normalized data using calculated fields for `Conversion Rate (%)`, `Basket Size`, and contact recency
-- Performed segmentation, time-series analysis, and lead scoring using MySQL
+### 💾 SQL-Based Analysis
+- Used MySQL to calculate segment-level conversion rates
+- Identified timing thresholds using `campaign`, `pdays`, and `previous` outreach values
+- Built lead prioritization logic combining conversion rate with `balance`
 
 ### 📊 Tableau Visualizations
-- Bar charts for segment comparisons
-- Heatmaps for timing sensitivity
-- Scatter plots for prioritization scoring
+- **Bar charts:** Segment conversion breakdowns
+- **Heatmaps:** Frequency and timing impact
+- **Scatter plots:** High-value lead prioritization based on likelihood and customer value
 
 ---
 
 ## 🔗 Data Source
 
-This dataset originates from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/bank+marketing), titled "Bank Marketing Data Set." It represents marketing efforts by a Portuguese banking institution and is publicly available for educational and analytical purposes.
+This dataset is publicly available via the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/bank+marketing) and represents anonymized marketing data from a Portuguese banking institution.
 
 ---
 
 ## 🛠️ Tools Used
 
-- **SQL (MySQL dialect):** For exploratory queries and calculated metrics
-- **Tableau Public:** For dashboard development and executive reporting
-- **Python (Pandas):** Used for data cleaning prior to import
+- **SQL (MySQL dialect):** Data transformation and insight generation
+- **Tableau Public:** Executive dashboards and data storytelling
+- **Python (Pandas):** Light preprocessing and CSV cleanup
 
 ---
 
@@ -100,5 +101,5 @@ sms-campaign-analysis/
 ## 👋 About the Analyst
 
 **Jeremy Gutierrez**  
-Aspiring Data Analyst with a passion for using SQL and AI-assisted tools to uncover meaningful business insights.  
-[Connect on LinkedIn](https://www.linkedin.com/in/your-profile) | [View my GitHub](https://github.com/your-profile)
+Aspiring Data Analyst focused on using SQL and AI tools to solve business problems through data. Passionate about stakeholder-aligned reporting and data storytelling.  
+[Connect on LinkedIn](https://www.linkedin.com/in/your-profile) • [View GitHub Portfolio](https://github.com/your-profile)
