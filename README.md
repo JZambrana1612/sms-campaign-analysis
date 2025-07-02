@@ -21,7 +21,7 @@ This dashboard addresses three strategic questions to help improve SMS marketing
   - Conversion trends by contact frequency and time since last outreach
   - A lead prioritization matrix based on conversion probability and account value
 
-> 🔗 [View the live dashboard on Tableau Public](YOUR_TABLEAU_PUBLIC_LINK_HERE)
+> 🔗 [View the live dashboard on Tableau Public](https://public.tableau.com/views/SMSCampaignPerformanceDashboard/SMSCampaignDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
 
 ![Dashboard Preview](images/dashboard_preview.png)
 
@@ -47,7 +47,7 @@ This dashboard addresses three strategic questions to help improve SMS marketing
 
 ### 🧮 Dataset Overview
 - ~41,000 records from a Portuguese bank’s direct marketing efforts
-- Each record includes demographics, campaign behavior, and final subscription outcome (`y`)
+- Each record includes demographics, campaign behavior, and final subscription outcome (`Subscribed`)
 
 ### 💾 SQL-Based Analysis
 - Used MySQL to calculate segment-level conversion rates
@@ -83,6 +83,9 @@ sms-campaign-analysis/
 ├── data/
 │   └── bank_sms_campaign_cleaned.csv
 │
+├── images/
+│   └── dashboard_preview.png
+│
 ├── sql/
 │   ├── sms_campaign_table_setup.sql
 │   ├── q1_best_segments.sql
@@ -90,9 +93,7 @@ sms-campaign-analysis/
 │   ├── q2b_timing_effect.sql
 │   └── q3_lead_prioritization.sql
 │
-├── images/
-│   └── dashboard_preview.png
-│
+├── LICENSE
 ├── README.md
 ```
 
@@ -102,4 +103,4 @@ sms-campaign-analysis/
 
 **Jeremy Gutierrez**  
 Aspiring Data Analyst focused on using SQL and AI tools to solve business problems through data. Passionate about stakeholder-aligned reporting and data storytelling.  
-[Connect on LinkedIn](https://www.linkedin.com/in/your-profile) • [View GitHub Portfolio](https://github.com/your-profile)
+[Connect on LinkedIn](https://www.linkedin.com/in/jeremy-gutierrez-4502391bb/) • [View GitHub Portfolio](https://github.com/JZambrana1612) 
