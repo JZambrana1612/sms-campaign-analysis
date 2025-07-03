@@ -29,17 +29,17 @@ This dashboard addresses three strategic questions to help improve SMS marketing
 
 ### ✅ Actionable Recommendations
 
-- **Prioritize segments with high conversion rates**, especially blue-collar roles and those with past positive interactions.
-  - *📣 Marketing Team Insight:* Refine audience targeting for future SMS campaigns using top-performing job and education segments.
+- **📣 Marketing Team Insight: Refine audience targeting for future SMS campaigns using top-performing job and education segments.**
+  - Prioritize segments with high conversion rates, especially blue-collar roles and those with past positive interactions.
 
-- **Limit contact frequency to 3 or fewer attempts.** Conversion sharply declines after repeated outreach.
-  - *🧠 Compliance/Operations Insight:* Helps prevent user fatigue and maintain regulatory compliance.
+- **🧠 Compliance/Operations Insight: Helps prevent user fatigue and maintain regulatory compliance.**
+  - Limit contact frequency to 3 or fewer attempts. Conversion sharply declines after repeated outreach.
 
-- **Use account balance and past engagement (`pdays`) to rank leads.**
-  - *💰 Finance Team Insight:* Optimizes spend by focusing on customers with the best ROI potential.
+- **💰 Finance Team Insight: Optimizes spend by focusing on customers with the best ROI potential.**
+  - Use account balance and past engagement (`pdays`) to rank leads.
 
-- **Schedule outreach during strong-performing months** like May and August to increase conversion efficiency.
-  - *📆 Sales & Campaign Ops Insight:* Coordinate campaign timing around seasonal effectiveness patterns.
+- **📆 Sales & Campaign Ops Insight: Coordinate campaign timing around seasonal effectiveness patterns.**
+  - Schedule outreach during strong-performing months like May and August to increase conversion efficiency.
 
 ---
 
