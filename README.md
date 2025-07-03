@@ -102,5 +102,5 @@ sms-campaign-analysis/
 ## 👋 About the Analyst
 
 **Jeremy Gutierrez**  
-Aspiring Data Analyst focused on using SQL, Python and Tableau to solve business problems through data. Passionate about stakeholder-aligned reporting and data storytelling.  
+Data Analyst focused on using SQL, Python and Tableau to solve business problems through data. Passionate about stakeholder-aligned reporting and data storytelling.  
 [Connect on LinkedIn](https://www.linkedin.com/in/jeremy-gutierrez-4502391bb/) • [View GitHub Portfolio](https://github.com/JZambrana1612) 
