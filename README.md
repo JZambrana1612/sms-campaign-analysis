@@ -81,7 +81,8 @@ This dataset is publicly available via the [UCI Machine Learning Repository](htt
 sms-campaign-analysis/
 │
 ├── data/
-│   └── bank_sms_campaign_cleaned.csv
+│   ├── bank-full.csv
+│    └── bank_sms_campaign_cleaned.csv
 │
 ├── images/
 │   └── dashboard_preview.png
@@ -94,7 +95,7 @@ sms-campaign-analysis/
 │   └── q3_lead_prioritization.sql
 │
 ├── LICENSE
-├── README.md
+└── README.md
 ```
 
 ---
